@@ -1,0 +1,32 @@
+{
+  "version": "v1",
+  "window": 48,
+  "horizon": 8,
+  "slot_minutes": 30,
+  "features": [
+    "occ_ratio",
+    "occ_lag1",
+    "occ_lag48",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "is_weekend"
+  ],
+  "target": "occupancy_ratio (occupied / capacity) for the next HORIZON slots",
+  "capacity_used_for_metrics": 60,
+  "test_mae_ratio": 0.04767899215221405,
+  "test_rmse_ratio": 0.05706314742565155,
+  "test_mae_spaces": 2.860739529132843,
+  "test_rmse_spaces": 3.423788845539093,
+  "trained_on_synthetic_data": true,
+  "train_period": [
+    "2026-08-30 09:00:00",
+    "2026-10-11 08:00:00"
+  ],
+  "test_period": [
+    "2026-10-20 09:00:00",
+    "2026-10-29 08:30:00"
+  ],
+  "trained_at": "2026-10-29 03:38:09.138455"
+}
